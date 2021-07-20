@@ -17,7 +17,7 @@ public class LoginTest extends TestBase{
 		String expected_URL = "https://allwyntest.appiancloud.com/suite/sites/protrack";
 		String actual_URL = DriverFactory.getInstance().getDriver().getCurrentUrl();
 		Assert.assertEquals(actual_URL, expected_URL, "Login failed");
-		
+		//test git repo
 		
 		/*
 		 * <test name="LoginTests">
